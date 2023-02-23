@@ -115,6 +115,7 @@
             this.MostrarContraseñaButton1.Size = new System.Drawing.Size(23, 22);
             this.MostrarContraseñaButton1.TabIndex = 7;
             this.MostrarContraseñaButton1.UseVisualStyleBackColor = true;
+            this.MostrarContraseñaButton1.Click += new System.EventHandler(this.MostrarContraseñaButton1_Click);
             // 
             // pictureBox1
             // 

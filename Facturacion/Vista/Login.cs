@@ -32,5 +32,17 @@ namespace Vista
             }
             errorProvider1.Clear();
         }
+
+        private void MostrarContraseñaButton1_Click(object sender, EventArgs e)
+        {
+            if (ContraseñaTextBox2.PasswordChar == '*')
+            {
+                ContraseñaTextBox2.PasswordChar = '\0';
+            }
+            else
+            {
+                ContraseñaTextBox2.PasswordChar = '*';
+            }
+        }
     }
 }
