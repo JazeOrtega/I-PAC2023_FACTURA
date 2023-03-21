@@ -9,17 +9,19 @@ namespace Entidades
         public string contraseña { get; set; }
         public string correo { get; set; }
         public string rol { get; set; }
+        public byte[] foto { get; set; }
         public DateTime fechaInicio { get; set; }
         public bool estaActivo { get; set; }
         public Usuario() { }
 
-        public Usuario(string codigoUsuario, string nombre, string contraseña, string correo, string rol, DateTime fechaInicio, bool estaActivo)
+        public Usuario(string codigoUsuario, string nombre, string contraseña, string correo, string rol, byte[] foto, DateTime fechaInicio, bool estaActivo)
         {
             this.codigoUsuario = codigoUsuario;
             this.nombre = nombre;
             this.contraseña = contraseña;
             this.correo = correo;
             this.rol = rol;
+            this.foto = foto;
             this.fechaInicio = fechaInicio;
             this.estaActivo = estaActivo;
         }

@@ -1,6 +1,6 @@
 ﻿namespace Vista
 {
-    partial class Login
+    partial class LoginForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -62,6 +62,7 @@
             // 
             this.ContraseñaTextBox2.Location = new System.Drawing.Point(117, 83);
             this.ContraseñaTextBox2.Name = "ContraseñaTextBox2";
+            this.ContraseñaTextBox2.PasswordChar = '*';
             this.ContraseñaTextBox2.Size = new System.Drawing.Size(155, 22);
             this.ContraseñaTextBox2.TabIndex = 6;
             // 

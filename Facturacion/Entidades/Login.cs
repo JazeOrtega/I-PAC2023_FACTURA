@@ -4,17 +4,15 @@
     {
         public string codigoUsuario { get; set; }
         public string contraseña { get; set; }
-        public string rol { get; set; }
 
         public Login()
         {
         }
 
-        public Login(string codigoUsuario, string contraseña, string rol)
+        public Login(string codigoUsuario, string contraseña)
         {
             this.codigoUsuario = codigoUsuario;
             this.contraseña = contraseña;
-            this.rol = rol;
         }
     }
 }
